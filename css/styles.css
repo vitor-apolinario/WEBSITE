@@ -1,4 +1,57 @@
 *{
 	box-sizing: border-box;
-	color: red;
+	margin: 0;
+}
+
+body {
+  font-family: "Lucida Sans", sans-serif;
+  margin: 0;
+}
+
+
+header, footer{
+	background-color: #669999;
+	color: #ffffff;
+}
+
+header h1{
+	position: relative;
+	left: 10px;
+	top: 10px;
+	font-family: 'Gamja Flower', cursive;
+	color: #ffffff;
+	font-size: 3em;
+	text-shadow: 1px 0 1px black;
+}
+
+a{
+	text-decoration: none;
+}
+
+header a{
+	color: #ffffff;
+}
+
+header nav ul{
+	display: inline;
+	list-style: none;
+	position: relative;
+}
+
+.menu-opcoes{
+	position: relative;
+	left: 15px;
+}
+
+#cadastre{
+	position: absolute;
+	right: 15px;
+	top: 35px;
+	padding: 1px;
+}
+
+#login{
+	position: absolute;
+	right: 15px;
+	top: 75px;
 }
