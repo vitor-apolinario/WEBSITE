@@ -44,7 +44,7 @@ header nav ul{
 }
 
 #cadastre{
-	position: absolute;
+	position: float;
 	right: 15px;
 	top: 35px;
 	padding: 1px;
