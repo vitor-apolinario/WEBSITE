@@ -11,38 +11,59 @@ body {
 header h1{
 	position: relative;
 	font-family: 'Gamja Flower', cursive;
-	padding-top: 20px;
-	padding-left: 20px;
+	padding-left: 10px;
 	color: #ffffff;
 	font-size: 3em;
 	text-shadow: 3px 1px 5px #00111a;
 }
 
-#frete{
-	color: #ffffff;
-}
-
-#fetch{
-	color: #ffffff;
+.menu-opcoes{
+	display: block;
+	font-size: 0.9em;
 }
 
 .menu-opcoes a{
+	font-weight: bold;
 	text-decoration: none;
 	color: #ffffff;
+	text-shadow: 1px 1px 1px #00111a;
 }
 
-.menu-opcoes{
+.menu-opcoes div{
+	padding-left: 20px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
 
+#controle-menu{
+	display: none;
+}
+
+label[for="controle-menu"]{
+	padding-left: 15px;
+	background-color: transparent;
+	font-size: 2.7em;
+	cursor: pointer;
+	color: #ffffff;
+	text-shadow: 2px 1px #00111a;
+}
+
+.top-wrap{
+	display: flex; 
+	align-items: center;
+	padding-bottom: 5px;
 }
 
 .c1 .c2 .c3 .c4 .c5{
 	width: 100%;
 
 }
+
 .c1{
 	background-color: #0088cc;
 	height: 200px;
-} 
+}
+
 .c2 {
 	background-color: #33bbff;
 	display: flex;
@@ -50,20 +71,29 @@ header h1{
 	justify-content: center;
 	align-items: center;
 }
+
+.titulo-section{
+	margin-top: 10px;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #00111a;
+}
+
 .c3 {
 	background-color: #4dc3ff;
 }
+
 .c4 {
 	background-color: #66ccff;
 }
+
 .c5{
 	background-color: #99ddff;
 }
+
 .sou{
 	background-color: #ffffff;
 	margin: 10px;
 	height: 100px;
-	width: 80px;
 	width: 80%;
 	border-radius: 15px;
 	box-shadow: 5px 5px #888888;
@@ -78,14 +108,4 @@ header h1{
 	text-align: right;
 	padding-left: 70px;
 	padding-right: 10px;
-}
-
-.menu-opcoes div{
-	margin-left: 30px;
-	padding-bottom: : 5px;
-	text-transform: uppercase;
-}
-
-.func{
-	text-align: top;
 }
