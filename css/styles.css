@@ -45,7 +45,6 @@ header h1{
 } 
 .c2 {
 	background-color: #33bbff;
-	height: 300px;
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
@@ -63,18 +62,30 @@ header h1{
 .sou{
 	background-color: #ffffff;
 	margin: 10px;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	height: 100px;
+	width: 80px;
 	width: 80%;
-	text-align: center;
 	border-radius: 15px;
 	box-shadow: 5px 5px #888888;
 }
-.sou:hover{
-	background-color: lightgrey;
+
+.sou p{
+	font-size: 1.2em;
+	margin:10px;
 }
+
+.sou-desc{
+	text-align: right;
+	padding-left: 70px;
+	padding-right: 10px;
+}
+
 .menu-opcoes div{
-	margin-left: 20px;
+	margin-left: 30px;
 	padding-bottom: : 5px;
 	text-transform: uppercase;
+}
+
+.func{
+	text-align: top;
 }
