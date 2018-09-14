@@ -8,50 +8,73 @@ body {
   margin: 0;
 }
 
-
-header, footer{
-	background-color: #669999;
-	color: #ffffff;
-}
-
 header h1{
 	position: relative;
-	left: 10px;
-	top: 10px;
 	font-family: 'Gamja Flower', cursive;
+	padding-top: 20px;
+	padding-left: 20px;
 	color: #ffffff;
 	font-size: 3em;
-	text-shadow: 1px 0 1px black;
+	text-shadow: 3px 1px 5px #00111a;
 }
 
-a{
-	text-decoration: none;
-}
-
-header a{
+#frete{
 	color: #ffffff;
 }
 
-header nav ul{
-	display: inline;
-	list-style: none;
-	position: relative;
+#fetch{
+	color: #ffffff;
+}
+
+.menu-opcoes a{
+	text-decoration: none;
+	color: #ffffff;
 }
 
 .menu-opcoes{
-	position: relative;
-	left: 15px;
+
 }
 
-#cadastre{
-	position: float;
-	right: 15px;
-	top: 35px;
-	padding: 1px;
-}
+.c1 .c2 .c3 .c4 .c5{
+	width: 100%;
 
-#login{
-	position: absolute;
-	right: 15px;
-	top: 75px;
+}
+.c1{
+	background-color: #0088cc;
+	height: 200px;
+} 
+.c2 {
+	background-color: #33bbff;
+	height: 300px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+.c3 {
+	background-color: #4dc3ff;
+}
+.c4 {
+	background-color: #66ccff;
+}
+.c5{
+	background-color: #99ddff;
+}
+.sou{
+	background-color: #ffffff;
+	margin: 10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 80%;
+	text-align: center;
+	border-radius: 15px;
+	box-shadow: 5px 5px #888888;
+}
+.sou:hover{
+	background-color: lightgrey;
+}
+.menu-opcoes div{
+	margin-left: 20px;
+	padding-bottom: : 5px;
+	text-transform: uppercase;
 }
