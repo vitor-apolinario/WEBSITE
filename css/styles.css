@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "Lucida Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
 }
 
@@ -45,10 +45,11 @@ label[for="controle-menu"]{
 	font-size: 2.7em;
 	cursor: pointer;
 	color: #ffffff;
-	text-shadow: 2px 1px #00111a;
+	text-shadow: 2px 2px #00111a;
 }
 
 .top-wrap{
+	width: 100%;
 	display: flex; 
 	align-items: center;
 	padding-bottom: 5px;
@@ -74,21 +75,28 @@ label[for="controle-menu"]{
 
 /*titulo que deve ser usado em c1, c2, ..., cn*/
 .titulo-section{
-	margin-top: 10px;
+	padding-top: 10px;
 	color: #ffffff;
-	text-shadow: 1px 1px 1px #00111a;
+	text-shadow: 1px 1px #00111a;
+	width: 70%;
+	text-align: center;
 }
 
 .c3 {
+	display: flex;
+	flex-flow: column wrap; 
 	background-color: #4dc3ff;
 }
 
 .c4 {
 	background-color: #66ccff;
+	display: flex;
+	flex-flow: column wrap; 
 }
 
 .c5{
-	background-color: #99ddff;
+	background-color: #0088cc;
+	height: 60px;
 }
 
 .sou{
@@ -114,13 +122,51 @@ label[for="controle-menu"]{
 	height: 70%;
 	width: 210px;
 	padding-top: 15px;
-	padding-right: 10px;
+	padding-right: 30px;
 	text-align: right;
 }
-
-/*deveria funcionar como uma div clicável*/
-a.fill-div{
-	display: block;
+.sou a{
 	text-decoration: none;
 	color: black;
+}
+
+.func{
+	margin: 15px;
+	color: #ffffff;
+}
+
+.func h3{
+	color: #ffffff;
+	/*text-shadow: 1px 1px #00111a;*/
+}
+
+.func p{
+	padding: 10px;
+	/*text-shadow: 1px 1px #00111a;*/
+	font-weight: bold;
+}
+
+.container-historia{
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 7px;
+	margin-bottom: 20px;
+	text-align: left;
+	color: #ffffff;
+	/*text-shadow: 1px 1px #00111a;*/
+	font-weight: bold;
+}
+
+.ico-left{
+	max-height: 104px;
+	max-width: 104px;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+.ico-right{
+	max-height: 104px;
+	max-width: 104px;
+	padding-right: 15px;
+	padding-top: 15px;
 }
