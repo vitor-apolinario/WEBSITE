@@ -72,6 +72,7 @@ label[for="controle-menu"]{
 	align-items: center;
 }
 
+/*titulo que deve ser usado em c1, c2, ..., cn*/
 .titulo-section{
 	margin-top: 10px;
 	color: #ffffff;
@@ -91,21 +92,34 @@ label[for="controle-menu"]{
 }
 
 .sou{
+	display: flex;
+	flex-wrap: wrap;
 	background-color: #ffffff;
 	margin: 10px;
 	height: 100px;
 	width: 80%;
 	border-radius: 15px;
 	box-shadow: 5px 5px #888888;
+	justify-content: flex-end;
 }
 
-.sou p{
-	font-size: 1.2em;
-	margin:10px;
+.sou-title{
+	width: 100%;
+	height: 30%;
+	padding-top: 10px;
+	padding-left: 10px
 }
 
 .sou-desc{
-	text-align: right;
-	padding-left: 70px;
+	height: 70%;
+	width: 210px;
+	padding-top: 15px;
 	padding-right: 10px;
+	text-align: right;
+}
+
+/*deveria funcionar como uma div clicável*/
+a.fill-div{
+	display: block;
+	text-decoration: none;
 }
