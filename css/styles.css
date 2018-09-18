@@ -55,6 +55,11 @@ label[for="controle-menu"]{
 	padding-bottom: 5px;
 }
 
+.container{
+	display: flex;
+	flex-flow: row wrap;
+}
+
 .c1, .c2, .c3, .c4, .c5{
 	width: 100%;
 
@@ -62,15 +67,15 @@ label[for="controle-menu"]{
 
 .c1{
 	background-color: #0088cc;
-	height: 200px;
 }
 
 .c2 {
 	background-color: #33bbff;
 	display: flex;
 	flex-flow: column;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
+	padding-bottom: 20px;
 }
 
 /*titulo que deve ser usado em c1, c2, ..., cn*/
@@ -170,3 +175,41 @@ label[for="controle-menu"]{
 	padding-right: 15px;
 	padding-top: 15px;
 }
+
+@media only screen and (min-width: 500px) {
+	.c2, .c3{
+		width: 50%;
+	}
+	.c1 .top-wrap label{
+		display: none;
+	}
+	.menu-opcoes{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.sou:hover{
+		background-color: lightgrey;
+	}
+
+	.c1 .top-wrap{
+		padding-top: 15px;
+	}
+
+	.top-wrap h1{
+		width: 100%;
+		text-align: center;
+	}
+
+	.menu-opcoes div{
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+
+	.menu-opcoes div:hover{
+		border-radius: 15px;
+		background-color: lightblue;
+		box-shadow: 1px 1px 1px black;
+	}
+
+}  
