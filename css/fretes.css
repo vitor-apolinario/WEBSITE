@@ -185,7 +185,7 @@ label[for="controle-menu"]{
 @media only screen and (min-width: 500px) {
 	.container{
 		width: 980px;
-		background-color: red;
+		background-color: lightgreen;
 	}
 	.c1 .top-wrap label{
 		display: none;
@@ -220,11 +220,45 @@ label[for="controle-menu"]{
 		background-color: lightblue;
 		box-shadow: 1px 1px 1px black;
 	}
-	#opcoes_cadastro{
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
+
+	.frete{
 		width: 100%;
+		display: flex;
+		flex-flow: row wrap; 
+		margin: 10px;
+		padding: 5px;
+		border: 1px solid grey;
 	}
+
+	.frete img{
+		max-height: 150px;
+		max-width: 150px;
+		justify-content: center;
+	}
+
+	.frete a{
+		width: 20%;
+	}
+
+	.frete p{
+		width: 70%;
+		height: 30px;
+	}
+
+	.info-wrapper{
+		border: 1px solid red;
+		width: 50%;
+		padding-left: 20px;
+		padding-right: 5px;
+	}
+
+	.info-wrapper2{
+		border: 1px solid blue;
+		word-break: break-all;
+		width: 30%;
+		padding-right: 5px;
+
+	}
+
 
 } 
