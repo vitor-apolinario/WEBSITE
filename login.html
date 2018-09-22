@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/cadastro.css">
+	<head>
+		<title>Login Frete-Fretch</title>
+		<link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+<body>
+	<!--cabeçalho-->
+	<header>
+		<a href="index.html"><img src="imagens/logo.png" id= "logo"></a>
+		<h1>Frete-Fetch</h1>
+		<a href="cadastro.html">Ainda não possui conta? Crie a sua!</a>
+	</header>
+	<!--fim cabeçalho-->
+
+	<div class="container">
+		<h1 align="center">Cadastre-se</h1>
+		<form action="cliente.php" method="post" id="form-contato">
+				    <div class="form-item">
+				      <label for="email" class="label-alinhado">E-mail:</label>
+				      <input type="email" id="email" name="email" placeholder="fulano@dominio" size="50">
+				      <span class="msg-erro" id="msg-email"></span>
+				    </div>					    			    
+				    <div class="form-item">
+				      <label for="senha" class="label-alinhado">Senha:</label>
+				      <input type="password" id="senha" name="senha" placeholder="Mínimo 6 caracteres">
+				      <span class="msg-erro" id="msg-senha"></span>
+				    </div>			    
+				    <div class="form-item">
+				    	<label class="label-alinhado"></label>
+				    <input type="submit" id="botao" value="Confirmar">
+				    </div>
+				</form>
+	</div>
+
+	<footer>
+		<p style="text-align: right; padding-right: 20px;">Icons by <a href="https://www.flaticon.com/authors/ddara" style="text-decoration: none; color: black;">Ddara</a> from <a href="https://www.flaticon.com/" style="text-decoration: none; color: black;">Flaticon</a>.</p>
+	</footer>
+</body>
+</html>

@@ -6,6 +6,9 @@
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
 }
 
 header h1{
@@ -177,8 +180,8 @@ label[for="controle-menu"]{
 }
 
 @media only screen and (min-width: 500px) {
-	.c2, .c3{
-		width: 50%;
+	.container{
+		width: 980px;
 	}
 	.c1 .top-wrap label{
 		display: none;
@@ -205,11 +208,19 @@ label[for="controle-menu"]{
 		padding: 10px;
 		margin-bottom: 10px;
 	}
-
+	.sou{
+		max-width: 400px;
+	}
 	.menu-opcoes div:hover{
 		border-radius: 15px;
 		background-color: lightblue;
 		box-shadow: 1px 1px 1px black;
+	}
+	#opcoes_cadastro{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		width: 100%;
 	}
 
 }  
