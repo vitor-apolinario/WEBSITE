@@ -231,24 +231,26 @@ label[for="controle-menu"]{
 		color: black;
 	}
 
-	.frete img{
-		max-height: 150px;
-		max-width: 150px;
-		justify-content: center;
+	.frete:hover{
+		background-color: grey;
 	}
 
-	.frete a{
+	.frete-imagem{
 		width: 20%;
 	}
 
+	.frete img{
+		max-height: 150px;
+		max-width: 150px;
+	}
+
 	.frete p{
-		width: 70%;
-		height: 30px;
+		padding: 5px;
 	}
 
 	.info-wrapper{
 		/*border: 1px solid red;*/
-		width: 50%;
+		width: 40%;
 		padding-left: 20px;
 		padding-right: 5px;
 	}
@@ -258,14 +260,10 @@ label[for="controle-menu"]{
 		word-break: break-all;
 		width: 30%;
 		padding-right: 5px;
-
-	}
-
-	.frete:hover{
-		background-color: grey;
 	}
 
 	.frete p{
 		font-weight: bold;
+		font-size: 0.8em;
 	}
 } 
