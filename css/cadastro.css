@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 	margin: 0;
 }
+a{
+	text-decoration: none;
+	color: black;
+}
 
 body {
   min-height: 100vh;
@@ -19,6 +23,12 @@ header, footer{
 	width: 100%;
 	background-color: #0088cc;
 
+}
+header div{
+	background-color: #33bbff;
+	padding: 10px;
+	border-radius: 10px;
+	color: white;
 }
 header{
 	display: flex;
