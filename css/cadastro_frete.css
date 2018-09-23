@@ -1,0 +1,181 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header, footer{
+	width: 100%;
+	background-color: #0088cc;
+
+}
+header div{
+	background-color: #33bbff;
+	padding: 10px;
+	border-radius: 10px;
+	color: white;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+}
+footer{
+	height: 60px;
+}
+h4{
+	width: 100%;
+	text-align: center;
+}
+.container{
+	margin: 10px;
+	border-radius: 20px;
+	background-color: #33bbff;
+	width: 980px;
+
+}
+.form-item{
+	/*border: 1px solid red;*/
+	display: flex;
+	flex-flow: row wrap;
+	margin: 10px 0px 10px 0px;
+}
+
+.form-item div{
+	/*border: 1px solid purple;*/
+	width: 50%;
+}
+
+.label-alinhado{
+	display: inline-block;
+	width: 100px;
+	/*border: 1px solid black;*/
+	text-align: right;
+}
+
+#logo{
+	width: 50px;
+}
+
+header h1{
+	position: relative;
+	font-family: 'Gamja Flower', cursive;
+	padding-left: 10px;
+	color: #ffffff;
+	font-size: 3em;
+	text-shadow: 3px 1px 5px #00111a;
+}
+
+.form-buttons{
+	margin: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.form-buttons input{
+	width: 150px;
+	height: 50px;
+	border: 0;
+	border-radius: 15px;
+	box-shadow: 1px 2px 3px black;
+	background-color: #0088cc;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.form-buttons input:hover{
+	background-color: black;
+}
+
+.opcoes-mob{
+	display: none;
+}
+
+@media only screen and (max-width: 430px) {
+	header{
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+		padding: 15px;
+	}
+
+	header h1{
+		width: 100%;
+		text-align: center;
+	}
+
+	.opcoes-desk{
+		display: none;
+	}
+
+	.opcoes-mob{
+		display: block;
+		/*width: 40%;*/
+	}
+
+	.opcoes-mob div{
+		justify-content: space-between;
+	}
+
+	.opcoes-mob div a{
+		width: 40%;
+	}
+
+	header{
+		/*justify-content: center;*/
+	}
+
+	h4{
+		width: 100%;
+		text-align: center;
+	}
+
+	.container{
+		border-radius: 20px;
+		background-color: #33bbff;
+		width: 95%;
+	}
+
+	.label-alinhado{
+		width: 50%;
+		text-align: left;
+	}
+
+	.form-item{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+
+	.form-item div{
+		width: 80%;
+		display: flex;
+		justify-content: space-between;
+		margin: 5px;
+	}
+
+	.form-buttons input{
+	width: 100px;
+	height: 50px;
+	border: 0;
+	border-radius: 15px;
+	box-shadow: 1px 2px 3px black;
+	background-color: #0088cc;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+}
