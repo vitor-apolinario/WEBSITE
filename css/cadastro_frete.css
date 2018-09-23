@@ -46,7 +46,8 @@ h4{
 	border-radius: 20px;
 	background-color: #33bbff;
 	width: 980px;
-
+	background-color: #e6e6e6;
+	box-shadow: 2px 2px 15px; 
 }
 .form-item{
 	/*border: 1px solid red;*/
@@ -106,6 +107,7 @@ header h1{
 }
 
 @media only screen and (max-width: 430px) {
+	body{background-color: #33bbff}
 	header{
 		display: flex;
 		flex-flow: row wrap;
@@ -135,19 +137,16 @@ header h1{
 		width: 40%;
 	}
 
-	header{
-		/*justify-content: center;*/
-	}
-
 	h4{
 		width: 100%;
 		text-align: center;
 	}
 
 	.container{
-		border-radius: 20px;
-		background-color: #33bbff;
 		width: 95%;
+		background-color: #e6e6e6;
+		margin: 20px 0px 20px 0px;
+		box-shadow: 2px 2px 15px; 
 	}
 
 	.label-alinhado{
@@ -169,13 +168,13 @@ header h1{
 	}
 
 	.form-buttons input{
-	width: 100px;
-	height: 50px;
-	border: 0;
-	border-radius: 15px;
-	box-shadow: 1px 2px 3px black;
-	background-color: #0088cc;
-	text-transform: uppercase;
-	color: #ffffff;
-}
+		width: 100px;
+		height: 50px;
+		border: 0;
+		border-radius: 15px;
+		box-shadow: 1px 2px 3px black;
+		background-color: #0088cc;
+		text-transform: uppercase;
+		color: #ffffff;
+	}
 }
