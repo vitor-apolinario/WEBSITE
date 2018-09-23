@@ -15,6 +15,7 @@ body {
   flex-flow: column wrap;
   align-items: center;
   justify-content: space-between;
+  background-color: #33bbff
 }
 
 header, footer{
@@ -126,7 +127,6 @@ header h1{
 
 	.opcoes-mob{
 		display: block;
-		/*width: 40%;*/
 	}
 
 	.opcoes-mob div{
