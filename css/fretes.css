@@ -70,6 +70,7 @@ label[for="controle-menu"]{
 	width: 100%;
 	display: flex;
 	flex-flow: row wrap;
+	justify-content: center;
 }
 
 .c1, .c2, .c3, .c4, .c5{
@@ -130,15 +131,14 @@ label[for="controle-menu"]{
 }
 
 /*começo alts mobile*/
-.container{
+#fretes_list{
 	width: 95%;
 	background-color: #e6e6e6;
 	margin: 20px 0px 20px 0px;
 	box-shadow: 2px 2px 15px; 
 }
-
 .frete{
-	width: 100%;
+	width: 96%;
 	display: flex;
 	flex-flow: row wrap; 
 	margin: 10px;
@@ -178,7 +178,9 @@ label[for="controle-menu"]{
 	width: 100%;
 	padding-right: 5px;
 }
-
+#nav_desktop{
+	display: none;
+}
 .frete p{
 	font-weight: bold;
 	font-size: 0.8em;
@@ -188,11 +190,50 @@ label[for="controle-menu"]{
 
 /*desktop*/
 @media only screen and (min-width: 500px) {
-	.container{
-		width: 980px;
+	#nav_mobile{
+		display: none;
+	}
+	#menu_title{
+		text-align: center;
+	}
+	li{
+		list-style-type: none;
+		margin:10px;
+		padding: 10px;
+	}
+	li:hover{
+		border-radius: 10px;
+		background-color: lightblue;
+	}
+	ul{
+		padding: 0;
+	}
+	header{
+		position: sticky;
+		top: 0px;
+	}
+	#nav_desktop{
+		color: white;
+		border-radius: 10px;
+		margin-top: 20px;
+		background-color: #0088cc;
+		display: block;
+		width: 20%;
+		height: 200px;
+		position: sticky;
+		top: 101px;
+	}
+	#fretes_list{
+		width: 80%;
 		background-color: #e6e6e6;
 		margin: 20px 0px 20px 0px;
 		box-shadow: 2px 2px 15px; 
+	}
+	.container{
+		display: flex;
+		flex-flow: row nowrap;
+		width: 980px;
+		
 	}
 	.c1 .top-wrap label{
 		display: none;
@@ -227,9 +268,8 @@ label[for="controle-menu"]{
 		background-color: lightblue;
 		box-shadow: 1px 1px 1px black;
 	}
-
 	.frete{
-		width: 100%;
+		width: 98%;
 		display: flex;
 		flex-flow: row wrap; 
 		margin: 10px;
