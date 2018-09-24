@@ -138,7 +138,7 @@ label[for="controle-menu"]{
 	box-shadow: 2px 2px 15px; 
 }
 .frete{
-	width: 96%;
+
 	display: flex;
 	flex-flow: row wrap; 
 	margin: 10px;
@@ -269,7 +269,6 @@ label[for="controle-menu"]{
 		box-shadow: 1px 1px 1px black;
 	}
 	.frete{
-		width: 98%;
 		display: flex;
 		flex-flow: row wrap; 
 		margin: 10px;
