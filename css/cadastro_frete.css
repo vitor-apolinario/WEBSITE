@@ -107,6 +107,11 @@ header h1{
 	display: none;
 }
 
+.msg-erro{
+	color: red;
+	font-size: 0.8em;
+}
+
 @media only screen and (max-width: 430px) {
 	body{background-color: #33bbff}
 	header{
