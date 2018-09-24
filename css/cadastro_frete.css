@@ -58,7 +58,8 @@ h4{
 }
 
 .form-item div{
-	/*border: 1px solid purple;*/
+	display: flex;
+	flex-flow: row wrap;
 	width: 50%;
 }
 
@@ -168,6 +169,7 @@ header h1{
 	.form-item div{
 		width: 80%;
 		display: flex;
+		flex-flow: row wrap;
 		justify-content: space-between;
 		margin: 5px;
 	}
@@ -181,5 +183,9 @@ header h1{
 		background-color: #0088cc;
 		text-transform: uppercase;
 		color: #ffffff;
+	}
+
+	.form-item span{
+		width: 100%;
 	}
 }
