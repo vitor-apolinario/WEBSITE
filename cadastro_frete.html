@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/cadastro_frete.css">
@@ -28,20 +28,20 @@
 		    	<div>
 		    		<label for="uf" class="label-alinhado">UF:</label>
 			    	<select id="uf" name="uf" required>
+			    		<option value="">Selecione...</option>
 			    		<option value="pr">PR</option>
 			    		<option value="sc">SC</option>
 						<option value="rs">RS</option>
-						<option value="-" selected>Selecione...</option>
 			    	</select>
 			    	<br><span class="msg-erro label-alinhado" id="msg-uf-inicial"></span>
 		    	</div>
 			    <div>
 			    	<label for="cid" class="label-alinhado">Cidade:</label>
 			    	<select id="cid" name="cid" required>
+			    		<option value="">Selecione...</option>
 			    		<option value="xap">Chapecó</option>
 			    		<option value="red">Redentora</option>
 						<option value="cur">Curitiba</option>
-						<option value="-" selected>Selecione...</option>
 			    	</select>
 			    	<br><span class="msg-erro label-alinhado" id="msg-cid-inicial"></span>
 		    	</div>
@@ -52,20 +52,20 @@
 		    	<div>
 		    		<label for="uf-dest" class="label-alinhado">UF:</label>
 			    	<select id="uf-dest"  name="uf-dest" required>
+			    		<option value="">Selecione...</option>
 			    		<option value="pr">PR</option>
 			    		<option value="sc">SC</option>
 						<option value="rs">RS</option>
-						<option value="-" selected>Selecione...</option>
 			    	</select>
 			    	<br><span class="msg-erro label-alinhado" id="msg-uf-final"></span>
 		    	</div>
 			    <div>
 			    	<label for="cid-dest" class="label-alinhado">Cidade:</label>
 			    	<select id="cid-dest"  name="cid-dest" required>
+			    		<option value="">Selecione...</option>
 			    		<option value="xap">Chapecó</option>
 			    		<option value="red">Redentora</option>
-							<option value="cur">Curitiba</option>
-							<option value="-" selected>Selecione...</option>
+						<option value="cur">Curitiba</option>
 			    	</select>
 			    	<br><span class="msg-erro label-alinhado" id="msg-cid-final"></span>
 		    	</div>
@@ -74,12 +74,12 @@
 		    <div class="form-item">
 		    	<div>
 			    	<label for="peso" class="label-alinhado">Peso:</label>
-			    	<input type="number" name="peso" value="1" min="1" required>
+			    	<input type="number" id="peso" name="peso" value="1" min="1" required>
 			    	<br><span class="msg-erro label-alinhado" id="msg-peso"></span>	
 				</div>
 			    <div>
 			    	<label for="volume" class="label-alinhado">Volume:</label>
-			    	<input type="number" name="volume" value="1" min="1" required>
+			    	<input type="number" id="volume" name="volume" value="1" min="1" required>
 			    	<br><span class="msg-erro label-alinhado" id="msg-volume"></span>
 				</div>
 		    </div>
@@ -88,10 +88,10 @@
 		    	<div>
 		    		<label for="grupo" class="label-alinhado">Grupo:</label>
 			    	<select id="grupo" required>
+			    		<option value="">Selecione...</option>
 			    		<option value="mat-cons">Materiais de construção</option>
 			    		<option value="alim">Alimentícios</option>
-							<option value="farm">Farmacêuticos</option>
-							<option value="-" selected>Selecione...</option>
+						<option value="farm">Farmacêuticos</option>
 			    	</select>
 			    	<br><span class="msg-erro label-alinhado" id="msg-slct-grupo"></span>
 		    	</div>
