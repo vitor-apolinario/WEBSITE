@@ -15,27 +15,27 @@
 	<header>
 		<a href="index.html" class="opcoes-desk"><div>Página inicial</div></a>
 		<h1>Frete-Fetch</h1>
-		<a href="login.html" class="opcoes-desk"><div>Faça seu login!</div></a>
+		<a href="cadastro.html" class="opcoes-desk"><div>Cadastre-se!</div></a>
 		<a href="index.html" class="opcoes-mob"><div>Página inicial</div></a>
-		<a href="login.html" class="opcoes-mob"><div>Faça seu login!</div></a>
+		<a href="cadastro.html" class="opcoes-mob"><div>Cadastre-se!</div></a>
 	</header>
 	<!--fim cabeçalho-->
 
 	<div class="container">
 		<h1 style="text-align: center;">Login</h1>
-		<form action="cliente.php" method="post" id="form-contato">
+		<form action="cliente.php" method="post" id="form-login">
 		    <div class="form-item">
 		      <div>
 			      <label for="email" class="label-alinhado">E-mail:</label>
 			      <input type="email" id="email" name="email" maxlength="50" size="30">
-			      <br><span class="msg-erro label-alinhado" id="msg-email">Erro</span>
+			      <br><span class="msg-erro label-alinhado" id="msg-email"></span>
 		      </div>
 		    </div>					    			    
 		    <div class="form-item">
 		    	<div>
 			      <label for="senha" class="label-alinhado">Senha:</label>
 			      <input type="password" id="senha" name="senha" size="30">
-			      <br><span class="msg-erro label-alinhado" id="msg-senha">Erro</span>
+			      <br><span class="msg-erro label-alinhado" id="msg-senha"></span>
 		    	</div>
 		    </div>			    
 			<div class="form-buttons">
@@ -48,11 +48,7 @@
 		<p style="text-align: right; padding-right: 20px;">Icons by <a href="https://www.flaticon.com/authors/ddara" style="text-decoration: none; color: black;">Ddara</a> from <a href="https://www.flaticon.com/" style="text-decoration: none; color: black;">Flaticon</a>.</p>
 	</footer>
 
-	<script type="text/javascript">
-		document.getElementById("botao").onclick=function(){
-			window.open('fretes.html');
-			return false;
-		}
-	</script>
+	
+	<script src="javascript/login.js"></script>
 </body>
 </html>

@@ -23,47 +23,47 @@
 
 	<div class="container">
 		<h1 style="text-align: center;">Cadastre-se</h1>
-		<form action="cliente.php" method="post" id="form-contato">
+		<form action="cliente.php" method="post" id="form-cadastro">
 		    <div class="form-item">
 		      <div>
 			      <label for="nome" class="label-alinhado">Nome:</label>
 			      <input type="text" id="nome" name="nome" maxlength="50" placeholder="Nome completo">
-		      	  <br><span class="msg-erro label-alinhado" id="msg-nome">Erro</span>
+		      	  <br><span class="msg-erro label-alinhado" id="msg-nome"></span>
 		      </div>
 		    </div>
 		    <div class="form-item">
 		      <div>
 			      <label for="email" class="label-alinhado">E-mail:</label>
 			      <input type="email" id="email" name="email" placeholder="fulano@dominio" maxlength="50">
-			      <br><span class="msg-erro label-alinhado" id="msg-email">Erro</span>
+			      <br><span class="msg-erro label-alinhado" id="msg-email"></span>
 			  </div>
 		    </div>					    
 		    <div class="form-item">
 			   	<div>
 			      <label for="endereco" class="label-alinhado">Endereço:</label>
 			      <input type="text" id="endereco" name="endereco" placeholder="Rua, número, complemento" maxlength="50">
-			      <br><span class="msg-erro label-alinhado" id="msg-endereco">Erro</span>
+			      <br><span class="msg-erro label-alinhado" id="msg-endereco"></span>
 			    </div>
 		    </div>			    
 		    <div class="form-item">
 		      <div>
 			      <label for="senha" class="label-alinhado">Senha:</label>
 			      <input type="password" id="senha" name="senha" placeholder="Mínimo 6 caracteres">
-			      <br><span class="msg-erro label-alinhado" id="msg-senha">Erro</span>
+			      <br><span class="msg-erro label-alinhado" id="msg-senha"></span>
 		      </div>
 		    </div>
 		    <div class="form-item">
 		      <div>
 			      <label for="senha2" class="label-alinhado">Repita a Senha:</label>
 			      <input type="password" id="senha2" name="senha2" placeholder="Mínimo 6 caracteres">
-		      <br><span class="msg-erro label-alinhado" id="msg-senha2">Erro</span>
+		      <br><span class="msg-erro label-alinhado" id="msg-senha2"></span>
 		      </div>
 		    </div>
 		    <div class="form-item">
 		    	<div>
 			      <label class="label-alinhado"></label>
 			      <label><input type="checkbox" id="concordo" name="concordo"> Li e estou de acordo com os termos de uso do site</label>
-			      <br><span class="msg-erro label-alinhado" id="msg-concordo">Erro</span>
+			      <br><span class="msg-erro label-alinhado" id="msg-concordo"></span>
 			    </div>
 		    </div>				    
 			<div class="form-buttons">
@@ -76,5 +76,6 @@
 	<footer>
 		<p style="text-align: right; padding-right: 20px;">Icons by <a href="https://www.flaticon.com/authors/ddara" style="text-decoration: none; color: black;">Ddara</a> from <a href="https://www.flaticon.com/" style="text-decoration: none; color: black;">Flaticon</a>.</p>
 	</footer>
+	<script src="javascript/cadastro.js"></script>
 </body>
 </html>

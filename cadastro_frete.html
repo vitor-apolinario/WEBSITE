@@ -22,7 +22,7 @@
 
 	<div class="container">
 		<h1 style="text-align: center;">Solicitar serviço</h1>
-		<form action="cliente.php" method="post" id="form-contato">
+		<form action="cliente.php" method="post" id="form-frete">
 		    <div class="form-item">
 		    	<h4>Local inicial</h4>
 		    	<div>
@@ -33,7 +33,7 @@
 						<option value="rs">RS</option>
 						<option value="-" selected>Selecione...</option>
 			    	</select>
-			    	<br><span class="msg-erro label-alinhado" id="msg-uf-inicial">erro</span>
+			    	<br><span class="msg-erro label-alinhado" id="msg-uf-inicial"></span>
 		    	</div>
 			    <div>
 			    	<label for="cid" class="label-alinhado">Cidade:</label>
@@ -43,7 +43,7 @@
 						<option value="cur">Curitiba</option>
 						<option value="-" selected>Selecione...</option>
 			    	</select>
-			    	<br><span class="msg-erro label-alinhado" id="msg-cid-inicial">erro</span>
+			    	<br><span class="msg-erro label-alinhado" id="msg-cid-inicial"></span>
 		    	</div>
 		    </div>
 
@@ -57,7 +57,7 @@
 						<option value="rs">RS</option>
 						<option value="-" selected>Selecione...</option>
 			    	</select>
-			    	<br><span class="msg-erro label-alinhado" id="msg-uf-final">erro</span>
+			    	<br><span class="msg-erro label-alinhado" id="msg-uf-final"></span>
 		    	</div>
 			    <div>
 			    	<label for="cid-dest" class="label-alinhado">Cidade:</label>
@@ -67,7 +67,7 @@
 							<option value="cur">Curitiba</option>
 							<option value="-" selected>Selecione...</option>
 			    	</select>
-			    	<br><span class="msg-erro label-alinhado" id="msg-cid-final">erro</span>
+			    	<br><span class="msg-erro label-alinhado" id="msg-cid-final"></span>
 		    	</div>
 		    </div>
 
@@ -75,12 +75,12 @@
 		    	<div>
 			    	<label for="peso" class="label-alinhado">Peso:</label>
 			    	<input type="number" name="peso" value="1" min="1" required>
-			    	<br><span class="msg-erro label-alinhado" id="msg-peso">erro</span>	
+			    	<br><span class="msg-erro label-alinhado" id="msg-peso"></span>	
 				</div>
 			    <div>
 			    	<label for="volume" class="label-alinhado">Volume:</label>
 			    	<input type="number" name="volume" value="1" min="1" required>
-			    	<br><span class="msg-erro label-alinhado" id="msg-volume">erro</span>
+			    	<br><span class="msg-erro label-alinhado" id="msg-volume"></span>
 				</div>
 		    </div>
 
@@ -93,7 +93,7 @@
 							<option value="farm">Farmacêuticos</option>
 							<option value="-" selected>Selecione...</option>
 			    	</select>
-			    	<br><span class="msg-erro label-alinhado" id="msg-slct-grupo">erro</span>
+			    	<br><span class="msg-erro label-alinhado" id="msg-slct-grupo"></span>
 		    	</div>
 		    </div>
 
@@ -101,12 +101,12 @@
 		    	<div>
 			    	<label for="txt" class="label-alinhado">Informações adicionais:</label>
 			    	<textarea cols="30" rows="5" id="txt"></textarea>
-			    	<br><span class="msg-erro label-alinhado" id="msg-info">erro</span>
+			    	<br><span class="msg-erro label-alinhado" id="msg-info"></span>
 		    	</div>
 		    	<div>
 		    		<label for="imagens">Envie imagens:</label>
 		    		<input type="file" name="imagens" id="imagens">
-		    		<br><span class="msg-erro label-alinhado" id="msg-img">erro</span>
+		    		<br><span class="msg-erro label-alinhado" id="msg-img"></span>
 		    	</div>
 		    </div>
 
